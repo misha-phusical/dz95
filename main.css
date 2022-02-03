@@ -20,11 +20,10 @@ body {
 }
 .wrapper{
     overflow: hidden;
-    min-width: 1700px;
 }
 .container{
     margin: 0 auto;
-    width: 1600px;
+    min-width: 1400px;
 }
 ul {
     margin: 0;
