@@ -22,7 +22,7 @@ body {
     overflow: hidden;
 }
 .container{
-    margin: 0 auto;
+    margin: 0 auto; 
     min-width: 1400px;
 }
 ul {
@@ -224,7 +224,7 @@ ul>li {
 
 .blok1 {
     position: absolute;
-    width: 1110px;
+    width: 1132px;
     height: 321px;
     color: var(--white);
     top: 120px;
@@ -351,7 +351,7 @@ ul>li {
 
 .aviaperevozki_overall_block {
     fill: white;
-    width: 275px;
+    width: 281px;
     height: 180px;
     border: 0.25px solid var(--dark);
     background: var(--svetlydark);
@@ -391,6 +391,7 @@ ul>li {
     display: flex;
     justify-content: space-between;
     height: 482px;
+    width: 1135px;
 
 }
 
@@ -459,7 +460,7 @@ ul>li {
 }
 
 .about_company_blocks {
-    width: 200px;
+    width: 199px;
     height: 160px;
     background: white;
     display: flex;
