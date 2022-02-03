@@ -19,9 +19,12 @@ body {
     
 }
 .wrapper{
-
     overflow: hidden;
     min-width: 1700px;
+}
+.container{
+    margin: 0 auto;
+    width: 1600px;
 }
 ul {
     margin: 0;
@@ -33,7 +36,6 @@ ul>li {
 }
 
 .top-line {
-    width: 1920px;
     height: 45px;
     background: var(--gold);
     font-size: 12px;
@@ -82,7 +84,6 @@ ul>li {
 
 .header {
     height: 87px;
-    width: 1920px;
     background: var(--dark);
     display: flex;
     justify-content: center;
@@ -153,9 +154,6 @@ ul>li {
     justify-content: space-between;
 }
 
-.first_screen {
-    width: 1920px;
-}
 
 .submain_menu_link {
     text-decoration: none;
@@ -163,6 +161,7 @@ ul>li {
 }
 
 .first_screen {
+    background: url(./images/fyrafon.jpg) center center;
     height: 620px;
     display: flex;
     justify-content: center;
@@ -207,7 +206,8 @@ ul>li {
 }
 
 .services {
-    width: 1920px;
+    display: flex;
+    justify-content: center;
     height: 561px;
     background: var(--svetlydark);
     position: relative;
@@ -221,7 +221,6 @@ ul>li {
     width: 410px;
     height: 561px;
     background: var(--dark);
-    margin-left: 755px;
 }
 
 .blok1 {
@@ -230,7 +229,6 @@ ul>li {
     height: 321px;
     color: var(--white);
     top: 120px;
-    left: 405px;
     display: flex;
 }
 
@@ -279,16 +277,12 @@ ul>li {
     width: 635px;
     margin-left: 30px;
     display: flex;
-
 }
 
 .navigation {
     height: 295px;
     width: 160px;
     text-transform: uppercase;
-
-
-
 }
 
 .strelkavvpered {
@@ -317,7 +311,6 @@ ul>li {
 }
 
 .greyfones {
-    width: 1920px;
     height: 1346px;
     background: var(--dark);
 
@@ -325,21 +318,17 @@ ul>li {
 
 .about_info {
     height: 1346px;
-    width: 1920px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-
 }
 
 .yslugi {
-    width: 1110px;
     height: 482px;
 }
 
 .about_company {
-    width: 1110px;
     height: 482px;
 
 }
@@ -402,7 +391,6 @@ ul>li {
 .about_company {
     display: flex;
     justify-content: space-between;
-    width: 1110px;
     height: 482px;
 
 }
@@ -516,12 +504,13 @@ ul>li {
 }
 
 .maps {
-    height: 450px;
+    background: url(./images/maps.png) center center;
+    height: 400px;
 }
 
 .footer {
     height: 161px;
-    width: 1920px;
+   
     background: var(--gold);
     display: flex;
     align-items: center;
@@ -566,13 +555,5 @@ ul>li {
 
 .razrab {
     text-decoration: underline;
-
-}
-
-@media (max-width: 768px) {
-    .wrapper {
-        min-width: 10px;
-        width: 1920px;
-    }
 }
 
